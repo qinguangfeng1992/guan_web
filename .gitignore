@@ -1,0 +1,7 @@
+*.iml
+/.idea/
+/target/
+
+/guan_web/target/
+guan_web/src/test/
+

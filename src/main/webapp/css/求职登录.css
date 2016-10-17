@@ -1,0 +1,196 @@
+#shang {
+	background-color: #999;
+	height: 50px;
+	width: 100%;
+}
+*{
+	margin: 0px;
+	padding: 0px;
+}
+#zuobian{
+	background-color: #CCE5EC;
+	height: 321px;
+	width: 556px;
+	float: left;
+}
+#youbian{
+	height: 321px;
+	width: 250px;
+	float: right;
+	border: 1px solid #CCC;
+     background-color:rgba(255,255,255,0.5);
+}
+#zhongjian{
+	height: 321px;
+	width: 808px;
+	
+	margin-top: 140px;
+	margin-left: 300px;
+}
+#zuo_xiaokuang{
+	
+	height: 300px;
+	width: 220px;
+	text-align: center;
+	margin-top: 9px;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+}
+#huanying{
+	float: left;
+	list-style-type: none;
+	font-weight: bold;
+	font-family: "华文仿宋";
+	border-bottom-width: 3px;
+	border-bottom-style: solid;
+	border-bottom-color: #06C;
+	padding-bottom: 5px;
+}
+#huanyingwaikuang{
+	height: 25px;
+	width: 100%;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #06F;
+}
+.HR{
+	border: 1px solid #7EA5B6;
+	height: 30px;
+	width: 100px;
+	font-size: 12px;
+	float: left;
+	margin-top: 10px;
+	background-color: #FFF;
+	clear: left;
+	line-height: 30px;
+	background-image: url(file:///C|/Users/Administrator/Documents/%E6%9C%AA%E5%91%BD%E5%90%8D%E7%AB%99%E7%82%B9%202/ok.jpg);
+	background-repeat: no-repeat;
+	background-position: right top;
+}
+.qiuzhi{
+	height: 30px;
+	width: 100px;
+	border: 1px solid #CCC;
+	float: right;
+	margin-top: 10px;
+	background-color: #FFF;
+	clear: right;
+	font-size: 14px;
+	line-height: 30px;
+}
+#shouji{
+	float: right;
+	height: 30px;
+	width: 180px;
+	border: 1px solid #FFF;
+}
+.mima_tupian {
+	background-color: #FEFEFE;
+	height: 35px;
+	width: 100%;
+	margin-top: 10px;
+}
+
+#yanzma{
+	height: 30px;
+	width: 60px;
+	float: right;
+	border: 1px solid #FAFCFB;
+}
+.yanzma_tupian {
+	background-color: #FCFEFD;
+	height: 35px;
+	width: 90px;
+	margin-top: 10px;
+	clear: left;
+	float: left;
+}
+#yanzma_fjian {
+	height: 30px;
+	width: 100%;
+	border: 1px solid #FFF;
+}
+#shouji2_fjian {
+	height: 30px;
+	width: 100%;
+	border: 1px solid #FFF;
+}
+
+#shouji2 {
+	float: right;
+	height: 30px;
+	width: 180px;
+	border: 1px solid #FFF;
+}
+#shouji_fjian {
+	height: 30px;
+	width: 100%;
+	border: 1px solid #FFF;
+}
+
+
+.shouji_tupian {
+	background-color: #FEFFFF;
+	height: 35px;
+	width: 100%;
+	clip: rect(50px,auto,auto,auto);
+	margin-top: 50px;
+}
+
+#yzmatup{
+	height: 20px;
+	width: 40px;
+	clear: right;
+	float: left;
+	margin-top: 25px;
+	margin-left: 5px;
+}
+.yzmaziti{
+	font-size: 10px;
+	margin-top: 30px;
+	color: #CCC;
+}
+#denlu{
+	height: 36px;
+	width: 220px;
+	padding: 0px;
+	margin-top: 10px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+#zhuce{
+	font-size: 12px;
+	margin-top: 7px;
+}
+#xiamian{
+	background-color: #313A3F;
+	height: 100px;
+	width: 100%;
+	margin-top: 100px;
+}
+#beijie{
+	background-color: #A5D2E5;
+	height: 325px;
+	width: 100%;
+	position: absolute;
+	left: 0px;
+	top: 50px;
+	z-index: -1;
+	
+}
+#xiabeijie{
+	background-color: #E9F1F4;
+	position: absolute;
+	width: 100%;
+	top: 376px;
+	height: 235px;
+	z-index: -1;
+}
+#youbian2{
+	float: left;
+	border: 1px solid #CCC;
+	height: 330px;
+	width: 280px;
+}

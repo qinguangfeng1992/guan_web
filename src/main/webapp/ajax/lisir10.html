@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <script type="text/javascript" src="../js/jquery-3.0.0.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $("button").click(function () {
+                $.get("json", function (data,status) {
+                    var a = JSON.parse(data).em;
+                    for (var i = 0; i <=a.length - 1; i++) {
+
+                        document.write(a[i].firstName + "" + a[i].lastName);
+                    };
+
+                });
+
+            });
+        });
+    </script>
+</head>
+<body>
+<button>百度一下</button>
+</body>
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+
+    <script type="text/javascript" src="js/jquery-3.0.0.js"></script>
+    <script>
+        /*   $(document).ready(function () {
+         $(".btt").click(function () {
+         $("img").slideUp(2000);
+
+         });
+         $(".bttt").click(function () {
+         $("img").slideDown(2000);
+
+         });
+
+
+         });*/
+
+        $(document).ready(function () {
+            $(".tb").click(function () {
+                $("img").slideToggle(2000);
+
+            });
+            $(".stop").click(function () {
+                $("img").stop();
+
+            });
+
+
+        });
+
+
+    </script>
+    <style type="text/css">
+        * {
+            margin: 0px 0px;
+        }
+
+        /*  .bgg{
+
+              width: 1000px;
+              height: 600px;
+          }*/
+        .bg {
+
+            width: 1000px;
+            height: 600px;
+        }
+    </style>
+
+
+</head>
+<body>
+<!--       <div class="bgg">-->
+<!--
+<img src="img/324.JPG">
+
+&lt;!&ndash; </div>&ndash;&gt;
+<button class="btt">滑动一下</button>
+
+<button class="bttt">再滑动一下</button>-->
+
+<button class="stop">停止一下</button>
+<button class="tb">动一下</button>
+
+<!--<div class="bg">
+
+</div>-->
+<div><img src="img/324.JPG"></div>
+
+
+
+
+
+
+</body>
+</html>

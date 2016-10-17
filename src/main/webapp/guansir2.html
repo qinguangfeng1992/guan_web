@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <style type="text/css">
+        /*  这是标签选择器，主要记住后台选择器*/
+        span {
+            color: green;
+            font-family: 微软雅黑;
+            font-size: 12px;
+
+        }
+
+        /*  ul li{
+              line-height: 50px;
+              list-style: none;
+              color:wheat;
+          }*/
+        li {
+            line-height: 30px;
+            list-style: none;
+            color: black;
+        }
+
+        .xiaomi {
+            width: 300px;
+            height: 500px;
+            background: gray;
+        }
+
+        .mi5 {
+            width: 230px;
+            height: 400px;
+            background-color:#fafafa ;
+
+         /*   border-bottom-style: solid;
+            border-top-style: solid;
+            border-left-style: solid;
+            border-right-style: solid;
+
+            border-bottom-color: #b0b0b0;
+            border-top-color: #b0b0b0;
+            border-left-color: #b0b0b0;
+            border-right-color: #b0b0b0;*/
+
+        }
+        li:hover{
+            color: red;
+        }
+
+
+    </style>
+
+    <title></title>
+</head>
+<body>
+SPAN标签 不仅让字体不换行，还能让字和字之间空格！！！<br/>
+<span>环球网</span>
+<span>中国知网</span>
+<span>京东商城</span>
+<span>CSDN</span>
+<span>和讯</span>
+<span>中国银行</span>
+<span>人人网</span>
+<span>Facebook</span>
+<span>W3school</span>
+<span>华声在线</span>
+
+<hr/>
+样式的优先级<br/>
+内联>内部>外部
+
+<hr/>
+<p> list-style 去掉无序列表的原点</p>
+
+<p> line-height 行高，行与行之间的距离</p>
+<hr/>
+<p>无序列表里面的 空格竟然不需要用“&n&bsp”!!真爽！</p>
+
+<div class="xiaomi">
+    <ul>
+        <li>手机 电话卡</li>
+        <li>笔记本 平板</li>
+        <li>电视 盒子</li>
+        <li>路由器 智能硬件</li>
+        <li>移动电源 电池 插线板</li>
+        <li>耳机 音箱</li>
+        <li>保护套 贴膜</li>
+        <li>箱包 服饰</li>
+        <li>线材 支架 存储卡</li>
+        <li>米兔 生活周边</li>
+    </ul>
+</div>
+<hr/>
+<p>子选择器 用>大于号来表示 和伪类选择器用冒号来表示 li:hover</p>
+
+<hr/>
+<p>尽量避免写内联，要的是html和css和js都分离，便于管理，扩展！</p>
+
+<div class="mi5">
+    <div><img src="img/QQ截图20160919111823.png" width="230" height="227"></div>
+     <ul>
+        <li style="font-family:微软雅黑">小米5 高配64G</li>
+        <li style="font-size:12px;color:#999">黑科技手机，3D玻璃机身</li>
+        <li style="color:#fd7d09">2099元</li>
+    </ul>
+</div>
+    <hr/>
+    <p>缩进 text-indent 45px左右最好</p>
+
+    <hr/>
+    <p>分组标签</p>
+
+    <hr/>
+    <p>CSS继承inherit</p>
+
+
+    <hr/>
+    <p>属性值后面加上：！improtant表示最高权值！</p>
+
+    <hr/>
+    <p>下划线：text-decoration:underline  删除线： text-decoration:line-through</p>
+
+    <hr/>
+    <p>word-spacing ：单词与单词间的距离</p>
+
+    <hr/>
+    <p>letter-spacing ：字母与字母间的距离</p>
+
+
+
+</body>
+</html>

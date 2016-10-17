@@ -1,0 +1,395 @@
+@CHARSET "UTF-8";
+*{
+  margin:0px;
+  padding:0px;
+}
+#one{
+	height:50px;
+	width:100%;
+}
+#one {
+	height: 50px;
+	width: 100%;
+	background-color: #313A3F;
+}
+#first{
+	width: 700px;
+	height: 50px;
+	float: left;
+}
+#first li{
+	list-style-type: none;
+	float: left;
+	line-height: 50px;
+	text-align: center;
+	height: 50px;
+	width: 80px;
+	font-size: 14px;
+	font-family: "微软雅黑";
+}
+#two {
+	float: left;
+	height: 50px;
+	width: 200px;
+	line-height: 50px;
+	color: #FFF;
+}
+#three {
+	height: 50px;
+	width: 900px;
+	margin-right: auto;
+	margin-left: auto;		
+}
+a:link {
+	color: #CCC;
+}
+#if {
+	height: 50px;
+	width: 100%;
+}
+
+a:visited {
+	color: #FFF;
+}
+a:hover {
+	color: #00C;
+}
+a:active {
+	color: #F00;
+}
+#four{
+	height: 50px;
+	width: 80px;
+	background-color: #00F;
+}
+#five{
+	height: 100px;
+	width: 900px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#six{
+	height: 100px;
+	width: 100px;
+	float: left;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #CCC;
+}
+#seven{
+	height: 35px;
+	width: 758px;
+	float: left;
+	padding-left: 40px;
+	line-height: 35px;
+	font-weight: bold;
+	font-size: 18px;
+	background-color: #FFF;
+}
+#eight{
+	height: 35px;
+	width: 758px;
+	float: left;
+	padding-left: 40px;
+	line-height: 35px;
+	background-color: #FFF;
+}
+#eight li{
+	float: left;
+	list-style-type: none;
+	height: 25px;
+	width: 150px;
+	font-family: "微软雅黑";
+	font-size: 14px;
+}
+.second{
+	color: #FFF;
+	background-color: #F90;
+	line-height: 30px;
+}
+#nine{
+	height: 30px;
+	width: 758px;
+	float: left;
+	padding-left: 40px;
+	line-height: 30px;
+	background-color: #FAFAFA;
+}
+#nine li{
+	float: left;
+	list-style-type: none;
+	font-family: "微软雅黑";
+	font-size: 14px;
+	height: 24px;
+	width: 90px;
+}
+#ten{
+	width: 100%;
+	height: 150px;
+	background-color: #E9F1F4;
+	padding-top: 20px;
+}
+#top{
+	height: 30px;
+	width: 80px;
+	line-height: 30px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #F90;
+	font-family: "微软雅黑";
+	font-size: 15px;
+	font-weight: bold;
+}
+#tp{
+	height: 30px;
+	width: 900px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 19px;
+}
+.top1{
+	height: 31px;
+	width: 700px;
+	margin-top: 20px;
+}
+.top1-1{
+	height: 30px;
+	width: 80px;
+	float: left;
+	line-height: 30px;
+	font-family: "微软雅黑";
+	font-size: 15px;
+	font-weight: bold;
+}
+.top1-2{
+	height: 30px;
+	width: 580px;
+	color: #CCC;
+	text-decoration: line-through;
+	line-height: 20px;
+}
+#top1-5{
+	height: 190px;
+	width: 700px;
+}
+#top1-3{
+	height: 162px;
+	width: 272px;
+	float: left;
+	margin-top: 10px;
+}
+#top1-4{
+	height: 162px;
+	width: 420px;
+	margin-top: 10px;
+	float: left;
+	margin-left: 8px;
+	font-size: 12px;
+	font-family: "微软雅黑";
+}
+#top1-6{
+	height: 85px;
+	width: 680px;
+	font-family: "微软雅黑";
+	font-size: 14px;
+	padding-left: 20px;
+	padding-top: 15px;
+	background-color: #FAFAFA;
+}
+#top1-6 li{
+	float: left;
+	list-style-type: none;
+	width: 70px;
+	height: 30px;
+	text-align: center;
+	margin-top: 10px;
+	line-height: 30px;
+}
+.ccc:hover {
+	background-color: #F90;
+	color: #FFF;
+	cursor: help;
+}
+
+.top2{
+	height: 70px;
+	width: 680px;
+	font-family: "微软雅黑";
+	padding-left: 20px;
+	padding-top: 15px;
+	background-color: #FAFAFA;
+	margin-top: 15px;
+	font-size: 14px;
+}
+.top2 li{
+	float: left;
+	list-style-type: none;
+	width: 120px;
+	height: 30px;
+	margin-top: 10px;
+}
+.third{
+	color: #F60;
+}
+.fifth{
+	color: #F33;
+}
+.sixth{
+	color: #CCC;
+	font-family: "微软雅黑";
+	font-size: 14px;
+}
+.page{
+	height: 25px;
+	width: 210px;
+	border: 0px solid #03F;
+	margin-right: auto;
+	margin-left: auto;
+}
+.page li{
+	float: left;
+	list-style-type: none;
+} 
+.page-style{
+	border: 1px solid #CCC;
+	margin: 2px;
+	padding-left: 1px;
+	padding-right: 2px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+.page-style2{
+	border: 1px solid #CCC;
+	margin: 2px;
+	padding-left: 2px;
+	padding-right: 2px;
+	font-family: "微软雅黑";
+	color: #FFF;
+	background-color: #F90;
+}
+#top3{
+	height: 70px;
+	width: 700px;
+	margin-top: 15px;
+}
+#eleven{
+	height: 1490px;
+	width: 940px;
+	padding-top: 15px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#twelve{
+	height: 1470px;
+	width: 710px;
+	float: left;
+}
+#thirteen{
+	height: 1470px;
+	width: 200px;
+	float: left;
+	margin-left: 20px;
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #CCC;
+}
+.top4{
+	float: left;
+	height: 31px;
+	width: 70px;
+	line-height: 31px;
+	font-family: "微软雅黑";
+	font-size: 15px;
+	font-weight: bold;
+}
+.top4-1{
+	float: left;
+	height: 31px;
+	width: 70px;
+	line-height: 31px;
+	text-decoration: line-through;
+	color: #CCC;
+}
+#top4-2{
+	height: 180px;
+	width: 200px;
+	text-align: center;
+	font-family: "微软雅黑";
+	font-size: 15px;
+	font-weight: bold;
+}
+#top4-3{
+	height: 31px;
+	width: 60px;
+	float: left;
+	text-align: center;
+	line-height: 31px;
+}
+.top4-4 {
+	border: 1px solid #CCC;
+	font-family: "微软雅黑";
+	font-size: 14px;
+}
+#top4-5{
+	height: 50px;
+	width: 200px;
+}
+#top4-6{
+	height: 80px;
+	width: 200px;
+	float: left;
+	margin-top: 20px;
+}
+#top4-6 li{
+	float: left;
+	list-style-type: none;
+	font-family: "微软雅黑";
+	font-size: 14px;
+	width: 60px;
+	margin-left: 4px;
+	margin-top: 5px;
+}
+#top5{
+	height: 100px;
+	width: 200px;
+	float: left;
+}
+#top5-1{
+	height: 33px;
+	width: 120px;
+	float: left;
+	border-left-width: 2px;
+	border-left-style: solid;
+	border-left-color: #F60;
+	line-height: 33px;
+	text-align: center;
+	font-family: "微软雅黑";
+	font-size: 14px;
+	margin-left: 10px;
+}
+#top5-2{
+	height: 33px;
+	width: 120px;
+	float: left;
+	line-height: 33px;
+	text-align: center;
+	font-family: "微软雅黑";
+	font-size: 14px;
+	background-image: url(../img/tu.jpg);
+	background-repeat: repeat-y;
+	background-position: left center;
+	padding-left: 10px;
+}
+#top5-3{
+	height: 33px;
+	width: 120px;
+	float: left;
+	border-left-width: 2px;
+	border-left-style: solid;
+	border-left-color: #CCC;
+	line-height: 33px;
+	text-align: center;
+	font-family: "微软雅黑";
+	font-size: 14px;
+	margin-left: 10px;
+}

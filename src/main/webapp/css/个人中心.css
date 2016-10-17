@@ -1,0 +1,80 @@
+#waikuang {
+	height: 800px;
+	width: 200px;
+	float: left;
+}
+#duibi {
+	height: 800px;
+	width: 200px;
+	float: left;
+	border: 1px solid #990;
+	margin-left: 20px;
+}
+.geren {
+	height: 40px;
+	width: 100%;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCC;
+	background-color: #F9FBF8;
+	color: #505457;
+}
+.img1 {
+	float: left;
+	position: relative;
+	height: 31px;
+	width: 47px;
+	left: 16px;
+	right: 10px;
+	top: 5px;
+	bottom: 3px;
+}
+.gerenzxing {
+	height: 40px;
+	width: 120px;
+	float: right;
+	font-weight: bold;
+	line-height: 40px;
+	color: #2B2F32;
+	margin-right: 15px;
+	font-family: "宋体";
+	background: #F9FBF8;
+}
+.dianhua {
+	height: 50px;
+	width: 100%;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCC;
+}
+.dianhuan {
+	height: 20px;
+	width: 110px;
+	color: #333;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-weight: bold;
+	position: relative;
+	top: 13px;
+	left: 60px;
+}
+.zhongjiankuang {
+	height: 260px;
+	width: 100%;
+}
+.miashi {
+	height: 43px;
+	width: 160px;
+	line-height: 40px;
+	padding-left: 40px;
+	color: #494949;
+	font-family: "微软雅黑";
+}
+.miashi:hover {
+	color: #FFF;
+	background-color: #FBB74C;
+	cursor: help;
+}
+* {
+	margin: 0px;
+	padding: 0px;
+}

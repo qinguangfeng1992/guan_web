@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <script type="text/javascript" src="../js/jquery-3.0.0.js"></script>
+    <title></title>
+    <script>
+        $(document).ready(function () {
+            $("button").click(function () {
+
+                $.post("info.asp", {name:'tom',pwd:'aaaaaa'}, function (data, status) {
+                    document.write(data + "<br/>"+status);
+
+                });
+
+            });
+        });
+    </script>
+</head>
+<body>
+<button >嗖的一下</button>
+</body>
+</html>
